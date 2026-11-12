@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9400
+name = Hyrule Blocks (experimental)
+path = "The Legend of Zelda: Breath of the Wild/Mods/Hyrule Blocks"
+description = Experimental block placement bridge. Requires the companion and update 208.
+version = 7

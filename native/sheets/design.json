@@ -1,0 +1,131 @@
+{
+  "blocks": [
+    {
+      "id": "wood",
+      "label": "Wood (BOTW placeholder)",
+      "actor": "Kibako_Contain_01",
+      "grid": 2.0,
+      "half_extent": 1.0,
+      "pivot_to_center_y": 1.0,
+      "limit": 32
+    }
+  ],
+  "systems": [
+    {
+      "id": "creative",
+      "mode": "solo",
+      "inventory": "unlimited",
+      "persistence": "session-only",
+      "target": "botw-v208"
+    },
+    {
+      "id": "hud",
+      "mode": "overlay",
+      "inventory": "nine-slot",
+      "persistence": "session-only",
+      "target": "botw-v208"
+    },
+    {
+      "id": "first-person",
+      "mode": "camera-distance-zero",
+      "inventory": "unchanged",
+      "persistence": "session-only",
+      "target": "botw-v208"
+    },
+    {
+      "id": "mouse-capture",
+      "mode": "foreground-building-clicks",
+      "inventory": "clicks-consumed",
+      "persistence": "session-only",
+      "target": "botw-v208"
+    },
+    {
+      "id": "block-textures",
+      "mode": "local-resource-replacement",
+      "inventory": "slot-1-pixel-planks",
+      "persistence": "lab-pack",
+      "target": "botw-v208"
+    }
+  ],
+  "controls": [
+    {
+      "id": "place",
+      "keyboard": "RMB",
+      "controller": "ZR",
+      "system": "creative"
+    },
+    {
+      "id": "break",
+      "keyboard": "LMB",
+      "controller": "ZL",
+      "system": "creative"
+    },
+    {
+      "id": "move",
+      "keyboard": "WASD",
+      "controller": "left-stick",
+      "system": "creative"
+    },
+    {
+      "id": "look",
+      "keyboard": "mouse",
+      "controller": "right-stick",
+      "system": "creative"
+    },
+    {
+      "id": "jump",
+      "keyboard": "Space",
+      "controller": "X",
+      "system": "creative"
+    },
+    {
+      "id": "inventory",
+      "keyboard": "E",
+      "controller": "minus",
+      "system": "hud"
+    },
+    {
+      "id": "slot",
+      "keyboard": "1-9",
+      "controller": "D-pad-left/right",
+      "system": "hud"
+    },
+    {
+      "id": "build-toggle",
+      "keyboard": "F6",
+      "controller": "D-pad-up",
+      "system": "creative"
+    },
+    {
+      "id": "perspective",
+      "keyboard": "F5",
+      "controller": "D-pad-down",
+      "system": "first-person"
+    },
+    {
+      "id": "menu",
+      "keyboard": "Enter/Backspace/arrows (building off)",
+      "controller": "A/B/D-pad",
+      "system": "hud"
+    }
+  ],
+  "textures": [
+    {
+      "id": "pixel-planks",
+      "block": "wood",
+      "size": 16,
+      "palette": [
+        "#9f713b",
+        "#a77a43",
+        "#b88749",
+        "#956735",
+        "#76502b"
+      ],
+      "seed": 410,
+      "resource": "Obj_BoxWood_A.Tex1.sbfres",
+      "surface": "Obj_BoxWood_A_01_Alb",
+      "source": "original-procedural-art",
+      "repeat": 4
+    }
+  ]
+}

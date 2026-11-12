@@ -1,0 +1,11 @@
+{
+  "cemu_directory": "runtime/cemu-lab",
+  "game_title": "D:/MyGames/BOTW/title.tmd",
+  "terrain_directory": "runtime/terrain/content/Terrain/A",
+  "prism_executable": "D:/Launchers/Prism/prismlauncher.exe",
+  "native_directory": "native",
+  "instance_name": "HyruleCraft-dev",
+  "mouse_scale": 0.5,
+  "fullscreen": true,
+  "invert_y": false
+}
